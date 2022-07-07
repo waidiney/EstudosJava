@@ -11,9 +11,14 @@ public class Funcionario {
         for (double salario : salarios) {
             System.out.print(salario + " ");
         }
-
+        imprimeMediaSalario();
     }
-
     public void imprimeMediaSalario() {
+        double media = 0;
+        for(double salario: salarios){
+            media += salario;
+        }
+        media /= salarios.length;
+        System.out.println("\nMédia salarial "+ media);
     }
 }
