@@ -28,6 +28,10 @@ public class Curriculo {
     }
 
     public void setIdade(int idade) {
+        if (idade < 0){
+            System.out.println("Idade inválida");
+            return;
+        }
         this.idade = idade;
     }
 
@@ -57,5 +61,32 @@ public class Curriculo {
 
     public void setPretensao(int pretensao) {
         this.pretensao = pretensao;
+    }
+    public String getNome(){
+        return this.nome;
+    }
+    public int getIdade(){
+        return this.idade;
+    }
+    public String getSexo(){
+        return this.sexo;
+    }
+    public String getEstadocivil(){
+        return this.estadocivil;
+    }
+    public String getExperiencia(){
+        return this.experiencia;
+    }
+    public boolean getApto(){
+        return this.apto;
+    }
+    public boolean getEmpregado(){
+        return this.empregado;
+    }
+    public String getCargo(){
+        return this.cargo;
+    }
+    public int getPretensao(){
+        return this.pretensao;
     }
 }
