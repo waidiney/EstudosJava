@@ -1,21 +1,35 @@
 package javacore.Bintroducaometodos.dominio;
 
+import kotlin.contracts.Returns;
+
 public class Funcionario {
     private String nome;
     private int idade;
     private double[] salarios;
-    private double media = 0;
-    public double getMedia() {
-        return media;
-    }
+    private double media;
+
     public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.idade);
+        if (salarios == null) {
+            return;
+        }
+
         for (double salario : salarios) {
-            System.out.print(salario + " ");
+            System.out.println(salario + " ");
         }
         imprimeMediaSalario();
+        {
+            if (salarios == null) {
+                return;
+            }
+            for (double salario : salarios) {
+                media /= salarios.length;
+                System.out.println("\nMédia salarial " + media);
+            }
+        }
     }
+
     // Alt + insert mostra opção de inserir automáticamente os get's e set's em cada classe privada
     public String getNome() {
         return nome;
@@ -41,12 +55,8 @@ public class Funcionario {
         this.salarios = salarios;
     }
 
-    public void imprimeMediaSalario() {
-        double media = 0;
-        for(double salario: salarios){
-            media += salario;
-        }
-        media /= salarios.length;
-        System.out.println("\nMédia salarial "+ media);
+    public double getMedia() {
+        return media;
     }
+
 }
