@@ -30,6 +30,9 @@ public class Funcionario {
         }
     }
 
+    private void imprimeMediaSalario() {
+    }
+
     // Alt + insert mostra opção de inserir automáticamente os get's e set's em cada classe privada
     public String getNome() {
         return nome;
