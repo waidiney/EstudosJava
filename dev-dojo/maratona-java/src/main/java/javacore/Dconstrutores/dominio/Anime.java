@@ -5,7 +5,6 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
-
     public void init(String nome, String tipo, int episodios) {
         this.nome = nome;
         this.tipo = tipo;
