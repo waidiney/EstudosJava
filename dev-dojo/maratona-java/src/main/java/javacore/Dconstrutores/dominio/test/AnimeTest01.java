@@ -1,11 +1,8 @@
 package javacore.Dconstrutores.dominio.test;
 import javacore.Dconstrutores.dominio.dominio.Anime;
-
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("Senku","TV",12,"Ação");
-        Anime anime2 = new Anime();
+        Anime anime = new Anime("Senku","TV",12,"Ação","TMS Entertainment");
         anime.imprime();
-        anime2.imprime();
      }
 }
