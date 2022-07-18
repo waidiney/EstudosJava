@@ -15,6 +15,9 @@ public class Anime {
         this.episodios = episodios;
         this.genero = genero;
     }
+    public Anime(){
+
+    }
     //-------------------------------------------------------------------------------------------
     // Trecho abaixo removido, pois agora estamos chamando e configurando o objeto direto no construtor
     //  public void init(String nome, String tipo, int episodios) {
