@@ -8,7 +8,7 @@ public class Anime {
     private String estudio;
 
     public Anime(String nome, String tipo, int episodios, String genero) {
-        this(); // <<<<<<<  this(); so pode ser ultilizado dentro do construtor
+        this(); // <<<<<<< this(); so pode ser ultilizado dentro do construtor
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
