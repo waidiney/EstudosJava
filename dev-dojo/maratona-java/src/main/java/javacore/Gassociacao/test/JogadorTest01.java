@@ -1,4 +1,4 @@
-package javacore.Gassociacao.dominio.test;
+package javacore.Gassociacao.test;
 
 import javacore.Gassociacao.dominio.Jogador;
 
