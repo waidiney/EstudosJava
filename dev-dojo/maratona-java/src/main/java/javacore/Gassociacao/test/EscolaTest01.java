@@ -8,7 +8,7 @@ public class EscolaTest01 {
         Professor professor1 = new Professor("Gustavo Guanabara");
         Professor professor2 = new Professor("Willian Suane");
         Professor[] professores = {professor1, professor2};
-        Escola escola = new Escola("Curso em video" , professores);
+        Escola escola = new Escola("Curso em video", professores);
         escola.imprime();
     }
 }

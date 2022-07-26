@@ -8,11 +8,11 @@ public class Escola {
         this.nome = nome;
 
     }
+
     public Escola(String nome, Professor[] professores) {
         this.nome = nome;
         this.professores = professores;
     }
-
 
 
     public void imprime() {
@@ -23,6 +23,7 @@ public class Escola {
         }
 
     }
+
     public String getNome() {
         return nome;
     }
