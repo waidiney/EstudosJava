@@ -1,31 +1,17 @@
 package javacore.Gassociacao.dominio;
 
 public class Placar {
-    private String nome;
-    private String Jogador;
-    private int Pontuação;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getJogador() {
-        return Jogador;
-    }
-
-    public void setJogador(String jogador) {
-        Jogador = jogador;
-    }
+    private int pontuação;
 
     public int getPontuação() {
-        return Pontuação;
+        return pontuação;
     }
 
     public void setPontuação(int pontuação) {
-        Pontuação = pontuação;
+        this.pontuação = pontuação;
+    }
+
+    public Placar(int pontuação) {
+        this.pontuação = pontuação;
     }
 }
