@@ -9,16 +9,14 @@ public class HerancaTest01 {
         Endereco endereco = new Endereco();
         endereco.setRua("Endereço Rua Patativas quadra 3 casa 18");
         endereco.setCep("CEP 65000-058");
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("Nome Keitarô");
+        Pessoa pessoa = new Pessoa("Saitama");
         pessoa.setCpf("CPF 0101010101010");
         pessoa.setEndereco(endereco);
         pessoa.imprime();
 
         System.out.println("-------------------------------------------");
 
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("Claudio Ricardo");
+        Funcionario funcionario = new Funcionario("Away de Petrópoles");
         funcionario.setCpf("101010100101010");
         funcionario.setEndereco(endereco);
         funcionario.setSalario(20000);
