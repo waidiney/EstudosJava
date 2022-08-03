@@ -5,9 +5,8 @@ public class Endereco {
     private String cep;
 
     public void imprime(){
-        Pessoa p = new Pessoa{
+        Pessoa p = new Pessoa();
             p.nome = "feb's";
-        }
     }
 
     public String getRua() {
