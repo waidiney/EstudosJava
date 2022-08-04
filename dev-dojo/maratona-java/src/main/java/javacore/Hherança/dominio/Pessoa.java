@@ -5,12 +5,8 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
-    public Pessoa(string nome){
-        this.nome = nome;
-    }
-    public Pessoa(String nome){
-        this(nome);
-        this.cpf = cpf;
+    public Pessoa(String nome) {
+
     }
 
     public void imprime(){
