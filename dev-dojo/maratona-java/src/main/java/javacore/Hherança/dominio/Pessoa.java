@@ -6,7 +6,6 @@ public class Pessoa {
     protected Endereco endereco;
 
     public Pessoa(String nome) {
-
     }
 
     public void imprime(){
