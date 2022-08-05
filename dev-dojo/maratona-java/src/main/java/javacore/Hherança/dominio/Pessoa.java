@@ -6,6 +6,8 @@ public class Pessoa {
     protected Endereco endereco;
 
     public Pessoa(String nome) {
+        System.out.println("Dentro do construtor de pessoa");
+        this.nome = nome;
     }
 
     public void imprime(){
