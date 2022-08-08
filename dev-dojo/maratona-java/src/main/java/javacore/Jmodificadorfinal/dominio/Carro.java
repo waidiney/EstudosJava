@@ -4,8 +4,9 @@ public class Carro {
     private String nome;
     public static final double VELOCIDADE_LIMITE = 250;
     public final Comprador COMPRADOR = new Comprador();
-
-    // Toda constante tem que ser escrita em capslock e sepera as palavras com _ e geralmente vem acompanhado de um modificador statico, esta constante por sua vez e usado quando nao querremos alterar o valor da variavel
+    public final void  impime(){
+        System.out.println(this.nome);
+    }
     public String getNome() {
         return nome;
     }
