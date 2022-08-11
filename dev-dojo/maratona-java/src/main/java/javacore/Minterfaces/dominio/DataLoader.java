@@ -4,5 +4,9 @@ package javacore.Minterfaces.dominio;
 // A interface tem por padrao todos os metodos ja declarados como "public abstract", e precisam ter o simbolo ;
 // Na classe que for usada como extends eh nescessario usar "implements e o nome da classe que ele extendeu, no caso DataLoader.
 public interface DataLoader {
-    void load();
+    public abstract void load();
+    default void checkPermission(){
+        System.out.println("Fazendo checagem de permissoes");
+    }
+
 }
