@@ -1,7 +1,5 @@
 package javacore.Bintroducaometodos.dominio;
 
-import kotlin.contracts.Returns;
-
 public class Funcionario {
     private String nome;
     private int idade;

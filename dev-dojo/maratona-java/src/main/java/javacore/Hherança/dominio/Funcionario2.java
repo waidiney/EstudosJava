@@ -1,4 +1,4 @@
-package javacore.Hherança.Test;
+package javacore.Hherança.dominio;
 
 import javacore.Hherança.dominio.Pessoa;
 
