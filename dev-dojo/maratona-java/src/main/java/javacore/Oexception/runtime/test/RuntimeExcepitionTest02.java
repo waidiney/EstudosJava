@@ -17,7 +17,7 @@ public class RuntimeExcepitionTest02 {
             throw new IllegalArgumentException("Argumento ilegal, nao pode ser 0");
         }
         try{
-            return a/b ; 
+            return a/b ;
         }catch (RuntimeException e){
             e.printStackTrace();
         }
