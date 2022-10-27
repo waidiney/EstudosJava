@@ -1,4 +1,4 @@
-package com.example.maratonajava;
+package javacore;
 
 public class Aula05EstruturasCondicionais03 {
     public static void main(String[] args) {

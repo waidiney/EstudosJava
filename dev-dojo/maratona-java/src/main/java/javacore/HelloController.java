@@ -1,4 +1,4 @@
-package com.example.maratonajava;
+package javacore;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -1,4 +1,4 @@
-package com.example.maratonajava;
+package javacore;
 
 public class Aula08ArraysMultidimensionais02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.example.maratonajava;
+package javacore;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

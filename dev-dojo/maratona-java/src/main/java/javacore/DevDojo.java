@@ -1,4 +1,4 @@
-package com.example.maratonajava;
+package javacore;
 
 public class DevDojo {
     public static void main(String[] args) {

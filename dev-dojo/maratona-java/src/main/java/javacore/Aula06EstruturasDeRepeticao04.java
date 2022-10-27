@@ -1,4 +1,4 @@
-package com.example.maratonajava;
+package javacore;
 
 public class Aula06EstruturasDeRepeticao04 {
     public static void main(String[] args) {
