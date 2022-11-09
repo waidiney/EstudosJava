@@ -1,4 +1,4 @@
-package javacore.Oexception.runtime.test;
+package javacore.Oexception.test;
 import javacore.Oexception.exception.test.dominio.Leitor1;
 import javacore.Oexception.exception.test.dominio.Leitor2;
 

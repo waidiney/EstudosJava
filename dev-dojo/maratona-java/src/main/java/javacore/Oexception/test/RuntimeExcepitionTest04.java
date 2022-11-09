@@ -1,4 +1,4 @@
-package javacore.Oexception.runtime.test;
+package javacore.Oexception.test;
 import java.io.IOException;
 import java.sql.SQLException;
 
